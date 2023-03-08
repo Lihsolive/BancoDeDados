@@ -8,7 +8,7 @@ CREATE TABLE tb_colaboradores (
         idade int not null,
         email VARCHAR(50) not null,
         cargo VARCHAR(50) not null,
-        salario int not null,
+        salario decimal not null,
         PRIMARY KEY (id)
 );
 
